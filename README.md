@@ -5,6 +5,10 @@
 [![Codecov](https://codecov.io/gh/digineo/go-ping/branch/master/graph/badge.svg)](https://codecov.io/gh/digineo/go-ping)
 [![Go Report Card](https://goreportcard.com/badge/github.com/digineo/go-ping)](https://goreportcard.com/report/github.com/digineo/go-ping)
 
+## Notice
+
+**Forked** from [digineo/go-ping](https://github.com/digineo/go-ping.git)
+
 A simple ICMP Echo implementation, based on [golang.org/x/net/icmp][net-icmp].
 
 Some sample programs are provided in `cmd/`:
@@ -27,6 +31,8 @@ Some sample programs are provided in `cmd/`:
 - [x] configurable retry amount and timeout duration
 - [x] configurable payload size (and content)
 - [x] round trip time measurement
+- [x] configurable outbound interface to specified (like `ping -I`)
+- [x] configurable outbound mark to specified (like `ping -m`)
 
 ## Contribute
 

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/digineo/go-ping"
+	ping "github.com/ilolicon/go-pingx"
 )
 
 // Monitor manages the goroutines responsible for collecting Ping RTT data.

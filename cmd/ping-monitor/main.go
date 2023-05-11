@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/digineo/go-ping"
-	"github.com/digineo/go-ping/monitor"
+	ping "github.com/ilolicon/go-pingx"
+	"github.com/ilolicon/go-pingx/monitor"
 )
 
 var (
